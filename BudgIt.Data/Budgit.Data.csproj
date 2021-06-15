@@ -6,7 +6,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MyBudgetApp.Core\MyBudgetApp.Core.csproj" />
+    <ProjectReference Include="..\BudgIt.Core\Budgit.Core.csproj" />
   </ItemGroup>
 
 </Project>

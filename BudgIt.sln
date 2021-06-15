@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31229.75
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BudgIt", "BudgIt\BudgIt.csproj", "{BDEB1256-F6C3-4797-AE14-12E4180BD9A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budgit.Core", "BudgIt.Core\Budgit.Core.csproj", "{AE232317-9045-4DEB-9378-39508F125562}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Budgit.Data", "BudgIt.Data\Budgit.Data.csproj", "{8DF08941-5C68-40C6-99ED-DBCFEB37D624}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BDEB1256-F6C3-4797-AE14-12E4180BD9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BDEB1256-F6C3-4797-AE14-12E4180BD9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BDEB1256-F6C3-4797-AE14-12E4180BD9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BDEB1256-F6C3-4797-AE14-12E4180BD9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE232317-9045-4DEB-9378-39508F125562}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE232317-9045-4DEB-9378-39508F125562}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE232317-9045-4DEB-9378-39508F125562}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE232317-9045-4DEB-9378-39508F125562}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8DF08941-5C68-40C6-99ED-DBCFEB37D624}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DF08941-5C68-40C6-99ED-DBCFEB37D624}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DF08941-5C68-40C6-99ED-DBCFEB37D624}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DF08941-5C68-40C6-99ED-DBCFEB37D624}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6D45F55A-C7A4-40CF-BDCA-20868DCEACD9}
+	EndGlobalSection
+EndGlobal
