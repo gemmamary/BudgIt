@@ -1,0 +1,9 @@
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\bin\Debug\netcoreapp3.1\MyBudgetApp.Core.deps.json
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\bin\Debug\netcoreapp3.1\MyBudgetApp.Core.dll
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\bin\Debug\netcoreapp3.1\MyBudgetApp.Core.pdb
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\obj\Debug\netcoreapp3.1\MyBudgetApp.Core.AssemblyInfoInputs.cache
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\obj\Debug\netcoreapp3.1\MyBudgetApp.Core.AssemblyInfo.cs
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\obj\Debug\netcoreapp3.1\MyBudgetApp.Core.csproj.CoreCompileInputs.cache
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\obj\Debug\netcoreapp3.1\MyBudgetApp.Core.dll
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\obj\Debug\netcoreapp3.1\MyBudgetApp.Core.pdb
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Core\obj\Debug\netcoreapp3.1\MyBudgetApp.Core.csprojAssemblyReference.cache

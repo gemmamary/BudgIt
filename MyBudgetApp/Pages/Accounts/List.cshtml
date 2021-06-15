@@ -1,0 +1,25 @@
+﻿@page
+@model MyBudgetApp.Pages.Accounts.ListModel
+@{
+}
+
+<form method="get">
+    <div class="form-group">
+        <div class="input-group">
+            <input type="search" class="form-control" asp-for="SearchTerm" placeholder="Search Accounts"/>
+            <div class="input-group-append">
+                <button class="btn btn-secondary">
+                    <i class="fas fa-search"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</form>
+
+@foreach (var account in Model.Accounts)
+{
+    <div class="container bg-secondary">
+        <h2 class="display-4">@account.Name</h2>
+        <h2 class="display-1">€@account.Balance</h2>
+    </div>
+}

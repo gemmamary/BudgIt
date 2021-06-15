@@ -1,0 +1,12 @@
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\bin\Debug\netcoreapp3.1\MyBudgetApp.Data.deps.json
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\bin\Debug\netcoreapp3.1\MyBudgetApp.Data.dll
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\bin\Debug\netcoreapp3.1\MyBudgetApp.Data.pdb
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\bin\Debug\netcoreapp3.1\MyBudgetApp.Core.dll
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\bin\Debug\netcoreapp3.1\MyBudgetApp.Core.pdb
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\obj\Debug\netcoreapp3.1\MyBudgetApp.Data.csprojAssemblyReference.cache
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\obj\Debug\netcoreapp3.1\MyBudgetApp.Data.AssemblyInfoInputs.cache
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\obj\Debug\netcoreapp3.1\MyBudgetApp.Data.AssemblyInfo.cs
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\obj\Debug\netcoreapp3.1\MyBudgetApp.Data.csproj.CoreCompileInputs.cache
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\obj\Debug\netcoreapp3.1\MyBudgetApp.Data.csproj.CopyComplete
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\obj\Debug\netcoreapp3.1\MyBudgetApp.Data.dll
+C:\Users\gemmi\source\repos\MyBudgetApp\MyBudgetApp.Data\obj\Debug\netcoreapp3.1\MyBudgetApp.Data.pdb
