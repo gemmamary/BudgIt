@@ -1,0 +1,18 @@
+﻿@page "{accountId:int}"
+@model BudgIt.Pages.Accounts.DetailModel
+@{
+}
+
+
+<h2>@Model.Account.Name</h2>
+<div>
+    Id: @Model.Account.Id
+</div>
+<div>
+    Balance: @Model.Account.Balance
+</div>
+<div>
+    Account Type: @Model.Account.AccountType
+</div>
+
+<a asp-page="./List" class="btn btn-outline-dark" >All Accounts</a>
