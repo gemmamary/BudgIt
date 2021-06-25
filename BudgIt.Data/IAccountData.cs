@@ -9,6 +9,7 @@ namespace MyBudgetApp.Data
     public interface IAccountData
     {
         IEnumerable<Account> GetAccounts(string name);
+        Account GetById(int id);
     }
 
     // This is a class for temporary account data
@@ -25,6 +26,11 @@ namespace MyBudgetApp.Data
                 new Account { Id = 2, Name = "Savings", Balance = 300, AccountType = AccountType.Debit },
                 new Account { Id = 3, Name = "Credit Card", Balance = 243, AccountType = AccountType.Credit }
             };
+        }
+
+        public Account GetById(int id)
+        {
+            return accounts.SingleOrDefault(a => a.Id == id);
         }
 
         // Gets all accounts created above
