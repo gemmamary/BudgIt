@@ -6,7 +6,7 @@
 <form method="get">
     <div class="form-group">
         <div class="input-group">
-            <input type="search" class="form-control" asp-for="SearchTerm" placeholder="Search Accounts"/>
+            <input type="search" class="form-control" asp-for="SearchTerm" placeholder="Search Accounts" />
             <div class="input-group-append">
                 <button class="btn btn-secondary">
                     <i class="fas fa-search"></i>
@@ -15,14 +15,19 @@
         </div>
     </div>
 </form>
+<table class="table table-hover">
+    @foreach (var account in Model.Accounts)
+    {
+        <tr>
+            <td>@account.Name</td>
+            <td>€@account.Balance</td>
+            <td>
+                <a class="btn btn-default" asp-page="./Detail" asp-route-accountId="@account.Id">
+                    <i class="fas fa-info"></i>
+                </a>
+            </td>
 
-@foreach (var account in Model.Accounts)
-{
-    <div class="container bg-secondary">
-        <h2 class="display-4">@account.Name</h2>
-        <h2 class="display-1">€@account.Balance</h2>
-        <a class="btn btn-default" asp-page="./Detail" asp-route-accountId="@account.Id">
-            <i class="fas fa-info"></i>
-        </a>
-    </div>
-}
+        </tr>
+    }
+</table>
+
