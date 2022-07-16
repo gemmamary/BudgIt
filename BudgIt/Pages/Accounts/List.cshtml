@@ -18,16 +18,20 @@
 <table class="table table-hover">
     @foreach (var account in Model.Accounts)
     {
-        <tr>
-            <td>@account.Name</td>
-            <td>€@account.Balance</td>
-            <td>
-                <a class="btn btn-default" asp-page="./Detail" asp-route-accountId="@account.Id">
-                    <i class="fas fa-info"></i>
-                </a>
-            </td>
-
-        </tr>
+    <tr>
+        <td>@account.Name</td>
+        <td>€@account.Balance</td>
+        <td>
+            <a class="btn btn-default" asp-page="./Detail" asp-route-accountId="@account.Id">
+                <i class="fas fa-info"></i>
+            </a>
+        </td>
+        <td>
+            <a class="btn btn-default" asp-page="./Edit" asp-route-accountId="@account.Id">
+                <i class="fas fa-edit"></i>
+            </a>
+        </td>
+    </tr>
     }
 </table>
 
